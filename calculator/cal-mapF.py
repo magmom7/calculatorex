@@ -1,4 +1,3 @@
-
 num1, num2 = map(int, input("두수를 입력하세요 ").split())
 
 op = input("계산할 연산자를 입력하세요 ")
