@@ -10,8 +10,8 @@ data = """
 
 Po1 = re.compile("[물]{1,2},[0-9]{3},[0-9]{1}.[0-9]{1}")
 Po = re.compile("[가-핳]{1,2},[0-9]{3},[0-9]{1}.[0-9]{1}")
-za = re.compile("[가-핳]{1,2},[0-9]{3},\d*.?\d+")
+Za = re.compile("[가-핳]{1,2},[0-9]{3},\d*.?\d+")
 
 print(Po1.findall(data))
 print(Po.findall(data))
-print(za.findall(data))
+print(Za.findall(data))
